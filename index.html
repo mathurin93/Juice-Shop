@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="app.js"></script>
+    <title>Assignment Two</title>
+</head>
+<body>
+    <main>
+<div class="box">
+    <form method="post" onsubmit="return validateForm();">
+    <h1 class="H">Sign in</h1>
+
+    <div class="inputBox">
+    <label class="form-label" for="firstname"></label>
+    <input class="form-control" type="text" name="Name" autocomplete="off" id="firstname"/>
+    <span>First Name</span>
+    <i></i>
+
+    </div>
+    <div class="inputBox">
+        <label class="form-label" for="lastname"></label>
+        <input class="form-control" type="text" name="Name" autocomplete="off" id="lastname"/>
+        <span>Last Name</span>
+        <i></i>
+        </div>
+
+        <div class="inputBox">
+            <label class="form-label" for="email"></label>
+            <input class="form-control" type="text" name="Name" id="email" autocomplete="on" placeholder="any@any.any"/>
+            <span>Email</span>
+            <i></i>
+            </div>
+
+        <div class="inputBox">
+            <label class="form-label" for="creditcardnumber"></label>
+            <input class="form-control" type="text" name="Name" id="creditcardnumber" autocomplete="on" placeholder="xxxx-xxxx-xxxx-xxxx"/>
+            <span>Credit Card Number</span>
+            <i></i>
+        </div>
+
+        <div class="inputBox">
+            <label class="form-label" for="creditcardexpirymonth"></label>
+            <input class="form-control" type="text" name="Name" id="creditcardexpirymonth" autocomplete="on" placeholder=" MMM"/>
+            <span>Credit Card Expiry Month</span>
+            <i></i>
+        </div>
+
+        <div class="inputBox">
+            <label class="form-label" for="creditcardexpiryyear"></label>
+            <input class="form-control" type="text" name="Name" id="creditcardexpiryyear" autocomplete="on" placeholder="YYYY"/>
+            <span>Credit Card Expiry Year</span>
+            <i></i>
+        </div>
+
+        <h2 class="H">Buy Generously</h2>
+        <div class="inputBox">
+            <label class="form-label" for="waterbottles"></label>
+            <input class="form-control" type="text" name="Name" id="waterbottles"/>
+            <span>Water Bottles $5"</span>
+            <i></i>
+        </div>
+
+        <div class="inputBox">
+            <label class="form-label" for="numberofcaps"></label>
+            <input class="form-control" type="text" name="Name" id="numberofcaps"/>
+            <span>Caps $20</span>
+            <i></i>
+        </div>
+
+        <div class="inputBox">
+            <label class="form-label" for="numberofpens"></label>
+            <input class="form-control" type="text" name="Name" id="numberofpens"/>
+            <span>Pens $2</span>
+            <i></i>
+        </div>
+
+        <div class="inputBox">
+            <label class="form-label" for="numberofcandysbars"></label>
+            <input class="form-control" type="text" name="Name" id="numberofcandybars"/>
+            <span>Candy Bars $10</span>
+            <i></i>
+        </div>
+
+        <div class="inputBox">
+            <label class="form-label" for="numberofcupcakes"></label>
+            <input class="form-control" type="text" name="Name" id="numberofcupcakes"/>
+            <span>Cup Cakes $3</span>
+            <i></i>
+        </div>
+        <div id="b">
+        <input class="btn btn-primary" type="submit" value="Order" />
+        </div>
+    </form>
+</div>
+    <span id="errors">&nbsp;</span>
+</div>
+    </main>
+    <section>
+        <div>
+            <span id="receipt">&nbsp;</span>
+        </div>
+    </section>
+</body>
+<footer>
+    <ul class="last">
+        <li><h4>MENU</h4></li>
+        <li>Smoothies</li>
+        <li>Juices</li>
+        <li>Eats</li>
+        <li>Specialty Shots</li>
+    </ul>
+    <ul class="last">
+        <li><h4>OUR STORY</h4></li>
+        <li>About Freshly Squeezed</li>
+        <li>Community Partnership</li>
+    </ul>
+    <ul class="last">
+        <li><h4>PROGRAM</h4></li>
+        <li>School</li>
+        <li>Program</li>
+        <li>Fundraising</li>
+        <li>Join Us</li>
+    </ul>
+    <ul class="last">
+        <li><h4>GIFT CARDS</h4></li>
+        <li>Birthday Cards</li>
+        <li>Holiday Cards</li>
+    </ul>
+    <ul class="last">
+        <li><h4>POLICY</h4></li>
+        <li><h4>TERMS & CONDITION</h4></li>
+        <li><h4>CURRENT PROMOS</h4></li>
+    </ul>
+</footer>
+</html>
